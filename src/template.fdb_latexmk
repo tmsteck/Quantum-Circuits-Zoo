@@ -1,9 +1,9 @@
 # Fdb version 3
-["pdflatex"] 1674065902 "/home/ubuntu/quantumcircuitszoo/src/template.tex" "/home/ubuntu/quantumcircuitszoo/src/template.pdf" "template" 1674065903
+["pdflatex"] 1674066025 "/home/ubuntu/quantumcircuitszoo/src/template.tex" "/home/ubuntu/quantumcircuitszoo/src/template.pdf" "template" 1674066025
   "/dev/null" 1670598397 0 d41d8cd98f00b204e9800998ecf8427e ""
   "/etc/texmf/web2c/texmf.cnf" 1638395883 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/ubuntu/quantumcircuitszoo/src/template.aux" 1674065903 662 b2b94621371df8d9296b8bf5bec1b851 ""
-  "/home/ubuntu/quantumcircuitszoo/src/template.tex" 1674065902 1003 78c7373e4dfcaf36efb28507f70b2582 ""
+  "/home/ubuntu/quantumcircuitszoo/src/template.aux" 1674066025 662 b2b94621371df8d9296b8bf5bec1b851 ""
+  "/home/ubuntu/quantumcircuitszoo/src/template.tex" 1674066025 1008 985cdede2ae656cc1a5a0fac0d4bdf09 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmbsy5.tfm" 1246382020 1120 1e8878807317373affa7f7bba4cf2f6a ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmbsy7.tfm" 1246382020 1120 7f9f170e8aa57527ad6c49feafd45d54 ""
@@ -186,13 +186,13 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1581979058 38841 ce3692aa899bb693b90b87eaa5d4d84e ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1638396486 4770781 1ed1abab22da9c3e2cc82e4db562318b ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1638396499 8261244 13cc10ff7ac889f94cf8e981abc0e002 ""
-  "template.aux" 1674065903 662 b2b94621371df8d9296b8bf5bec1b851 "pdflatex"
-  "template.out" 1674065903 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "template.tex" 1674065902 1003 78c7373e4dfcaf36efb28507f70b2582 ""
+  "template.aux" 1674066025 662 b2b94621371df8d9296b8bf5bec1b851 "pdflatex"
+  "template.out" 1674066025 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "template.tex" 1674066025 1008 985cdede2ae656cc1a5a0fac0d4bdf09 ""
   (generated)
-  "template.out"
-  "/home/ubuntu/quantumcircuitszoo/src/template.log"
-  "template.pdf"
   "template.aux"
+  "/home/ubuntu/quantumcircuitszoo/src/template.log"
   "/home/ubuntu/quantumcircuitszoo/src/template.pdf"
+  "template.out"
   "template.log"
+  "template.pdf"
