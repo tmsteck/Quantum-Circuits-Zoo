@@ -1,0 +1,22 @@
+name: Clean-Images
+
+on:
+  push:
+    paths:
+      - 'src/*.pdf'
+
+jobs:
+  move_pdfs:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+    - name: Move PDF files
+      run: |
+        # Navigate to the folder containing the pdfs
+        cd src/
+        # Find all pdf files in the folder and move them to a different folder
+        find . -name '*.pdf' -exec mv {} images/ \;
+        find . -name '*.aux' -o -name '*.fls' -o -name '*.lof' -o -name '*.log' -o -name '*.out' -o -name '*.synctex.gz' -exec rm {} \;
