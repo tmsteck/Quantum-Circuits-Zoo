@@ -27,6 +27,10 @@ INPUT /usr/share/texlive/texmf-dist/tex/latex/base/article.cls
 INPUT /usr/share/texlive/texmf-dist/tex/latex/base/article.cls
 INPUT /usr/share/texlive/texmf-dist/tex/latex/base/size10.clo
 INPUT /usr/share/texlive/texmf-dist/tex/latex/base/size10.clo
+INPUT /home/ubuntu/quantumcircuitszoo/src/Bell-Plus.pdf
+INPUT /home/ubuntu/quantumcircuitszoo/src/Bell-Plus.aux
+INPUT /home/ubuntu/quantumcircuitszoo/src/Bell-Plus.aux
+INPUT /home/ubuntu/quantumcircuitszoo/src/Bell-Plus.pdf
 INPUT /usr/share/texlive/texmf-dist/tex/latex/endfloat/endfloat.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/endfloat/endfloat.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
