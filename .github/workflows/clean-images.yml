@@ -20,3 +20,11 @@ jobs:
         # Find all pdf files in the folder and move them to a different folder
         find . -name '*.pdf' -exec mv {} ../images/ \;
         find . -name '*.aux' -o -name '*.fls' -o -name '*.lof' -o -name '*.log' -o -name '*.out' -o -name '*.synctex.gz' -exec rm {} \;
+    - name: Add changes
+      run: git add -A
+
+    - name: Commit changes
+      run: git commit -m "Move PDF files to images folder"
+
+    - name: Push changes
+      run: git push origin main
