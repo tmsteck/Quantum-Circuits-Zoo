@@ -21,7 +21,10 @@ jobs:
         find . -name '*.pdf' -exec mv {} ../images/ \;
         find . -name '*.aux' -o -name '*.fls' -o -name '*.lof' -o -name '*.log' -o -name '*.out' -o -name '*.synctex.gz' -exec rm {} \;
     - name: Add changes
-      run: git add -A
+      run: |
+        git config --global user.name "github-actions[bot]"
+        git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+        git add -A
 
     - name: Commit changes
       run: git commit -m "Move PDF files to images folder"
