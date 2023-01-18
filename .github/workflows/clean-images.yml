@@ -3,7 +3,7 @@ name: Clean-Images
 on:
   push:
     paths:
-      - './src/*.pdf'
+      - 'src/*.pdf'
 
 jobs:
   move_pdfs:
