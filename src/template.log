@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.12.1)  18 JAN 2023 18:12
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.12.1)  18 JAN 2023 18:13
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -632,15 +632,15 @@ Package rerunfilecheck Info: File `template.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 22237 strings out of 481239
- 438441 string characters out of 5920377
- 701828 words of memory out of 5000000
- 37030 multiletter control sequences out of 15000+600000
+ 22188 strings out of 481239
+ 437126 string characters out of 5920377
+ 699828 words of memory out of 5000000
+ 36981 multiletter control sequences out of 15000+600000
  536794 words of font info for 41 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 60i,15n,103p,1212b,1257s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 60i,15n,103p,1212b,993s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on /home/ubuntu/quantumcircuitszoo/src/template.pdf (1 page, 16137 bytes).
+Output written on /home/ubuntu/quantumcircuitszoo/src/template.pdf (1 page, 16025 bytes).
 PDF statistics:
  24 PDF objects out of 1000 (max. 8388607)
  18 compressed objects within 1 object stream
