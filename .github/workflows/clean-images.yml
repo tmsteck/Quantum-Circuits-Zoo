@@ -15,8 +15,7 @@ jobs:
 
     - name: Fix ImageMagick Policy
       run: |
-        sudo mv /etc/ImageMagick-6/policy.xml /etc/ImageMagick-6/policy.xmlout
-
+        sudo apt install poppler-utils
     - name: Move PDF files
       run: |
 
@@ -24,7 +23,7 @@ jobs:
         cd src/
         #converts all .pdf images into .png images:
         for f in *.pdf; do
-            convert -density 150 "$f" -quality 90 "${f%.pdf}.png"
+            pdftoppm -png -r 300 "$f" "${f%.pdf}"
         done
         # Find all pdf files in the folder and move them to a different folder
         find . -name '*.png' -exec mv {} ../images/ \;

@@ -1,9 +1,9 @@
 # Fdb version 3
-["pdflatex"] 1674490396 "/home/ubuntu/quantumcircuitszoo/src/Bell-Plus.tex" "/home/ubuntu/quantumcircuitszoo/src/Bell-Plus.pdf" "Bell-Plus" 1674491132
+["pdflatex"] 1674491894 "/home/ubuntu/quantumcircuitszoo/src/Bell-Plus.tex" "/home/ubuntu/quantumcircuitszoo/src/Bell-Plus.pdf" "Bell-Plus" 1674491895
   "/dev/null" 1670598397 0 d41d8cd98f00b204e9800998ecf8427e ""
   "/etc/texmf/web2c/texmf.cnf" 1638395883 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/ubuntu/quantumcircuitszoo/src/Bell-Plus.aux" 1674490396 662 b2b94621371df8d9296b8bf5bec1b851 ""
-  "/home/ubuntu/quantumcircuitszoo/src/Bell-Plus.tex" 1674491131 1070 e2e89c584939b785405448c955b24102 ""
+  "/home/ubuntu/quantumcircuitszoo/src/Bell-Plus.aux" 1674491895 662 b2b94621371df8d9296b8bf5bec1b851 ""
+  "/home/ubuntu/quantumcircuitszoo/src/Bell-Plus.tex" 1674491892 1071 7ab627f5840738810629dfbd2ca6c961 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmbsy5.tfm" 1246382020 1120 1e8878807317373affa7f7bba4cf2f6a ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmbsy7.tfm" 1246382020 1120 7f9f170e8aa57527ad6c49feafd45d54 ""
@@ -188,13 +188,14 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1581979058 38841 ce3692aa899bb693b90b87eaa5d4d84e ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1638396486 4770781 1ed1abab22da9c3e2cc82e4db562318b ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1638396499 8261244 13cc10ff7ac889f94cf8e981abc0e002 ""
-  "Bell-Plus.aux" 1674490396 662 b2b94621371df8d9296b8bf5bec1b851 "pdflatex"
-  "Bell-Plus.out" 1674490396 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "Bell-Plus.tex" 1674491131 1070 e2e89c584939b785405448c955b24102 ""
+  "Bell-Plus.aux" 1674491895 662 b2b94621371df8d9296b8bf5bec1b851 "pdflatex"
+  "Bell-Plus.out" 1674491895 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "Bell-Plus.pdf" 1674491895 30628 e30228a32da23f6c73d25bf23edd6221 "pdflatex"
+  "Bell-Plus.tex" 1674491892 1071 7ab627f5840738810629dfbd2ca6c961 ""
   (generated)
-  "/home/ubuntu/quantumcircuitszoo/src/Bell-Plus.log"
-  "Bell-Plus.out"
-  "Bell-Plus.log"
   "Bell-Plus.aux"
   "/home/ubuntu/quantumcircuitszoo/src/Bell-Plus.pdf"
+  "Bell-Plus.log"
+  "/home/ubuntu/quantumcircuitszoo/src/Bell-Plus.log"
+  "Bell-Plus.out"
   "Bell-Plus.pdf"
