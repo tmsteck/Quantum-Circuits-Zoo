@@ -24,6 +24,8 @@ jobs:
         #converts all .pdf images into .png images:
         for f in *.pdf; do
             pdftoppm -png -r 300 "$f" "${f%.pdf}"
+            #Removes the "-1" from the end of the file names filename-1.png
+            mv "${f%.pdf}-1.png" "${f%.pdf}.png"
         done
         # Find all pdf files in the folder and move them to a different folder
         find . -name '*.png' -exec mv {} ../images/ \;
@@ -34,7 +36,10 @@ jobs:
         find . -name '*.lof' -exec rm {} \;
         find . -name '*.log' -exec rm {} \;
         find . -name '*.out' -exec rm {} \;
+        find . -name '*.dvi' -exec rm {} \;
+        fing . -name '*..fdb_latexmk' -exec rm {} \;
         find . -name '*.synctex.gz' -exec rm {} \;
+
     - name: Add changes
       run: |
         git config --global user.name "github-actions[bot]"
