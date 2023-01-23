@@ -37,8 +37,8 @@ jobs:
         find . -name '*.lof' -exec rm {} \;
         find . -name '*.log' -exec rm {} \;
         find . -name '*.out' -exec rm {} \;
-        find . -name '*.dvi' -exec rm {} \;
-        fing . -name '*.fdb_latexmk' -exec rm {} \;
+        # find . -name '*.dvi' -exec rm {} \;
+        # fing . -name '*.fdb_latexmk' -exec rm {} \;
         find . -name '*.synctex.gz' -exec rm {} \;
 
     - name: Add changes
