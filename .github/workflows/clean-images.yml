@@ -29,8 +29,8 @@ jobs:
             mv "${f%.pdf}-1.png" "${f%.pdf}.png"
         done
         # Find all pdf files in the folder and move them to a different folder
-        find . -name '*.png' -exec mv {} ../images/ \;
-        find . -name '*.pdf' -exec mv {} ../images/ \;
+        find . -name '*.png' -exec mv {} ../img/ \;
+        find . -name '*.pdf' -exec mv {} ../img/ \;
         # Remove all the auxillary files with extensions .aux, .fls, .lof, .log, .out, .synctex.gz:
         find . -name '*.aux' -exec rm {} \;
         find . -name '*.fls' -exec rm {} \;
@@ -52,3 +52,16 @@ jobs:
 
     - name: Push changes
       run: git push origin main
+    
+    - name: Copy img/ to gh-pages
+      env:
+          SRC_FOLDER_PATH: 'img'
+          TARGET_BRANCH: 'gh-pages'
+      run: |
+        files=$(find $SRC_FOLDER_PATH -png f) # get the file list
+        git fetch                         # fetch branches
+        git checkout $TARGET_BRANCH       # checkout to your branch
+        git checkout ${GITHUB_REF##*/} -- $files # copy files from the source branch
+        git add -A
+        git diff-index --quiet HEAD ||  git commit -am "deploy files"  # commit to the repository (ignore if no modification)
+        git push origin $TARGET_BRANCH # push to remote branch
