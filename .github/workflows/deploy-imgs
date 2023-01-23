@@ -1,0 +1,28 @@
+name: Copy Images to Pages
+on:
+  push:
+    paths:
+      - 'src/*.pdf'
+  workflow_dispatch:
+
+jobs:
+  move_pdfs:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+    
+    - name: Copy img/ to gh-pages
+      env:
+          SRC_FOLDER_PATH: 'img'
+          TARGET_BRANCH: 'gh-pages'
+      run: |
+        cd ../
+        files=$(find $SRC_FOLDER_PATH -png f) # get the file list
+        git fetch                         # fetch branches
+        git checkout $TARGET_BRANCH       # checkout to your branch
+        git checkout ${GITHUB_REF##*/} -- $files # copy files from the source branch
+        git add -A
+        git diff-index --quiet HEAD ||  git commit -am "deploy files"  # commit to the repository (ignore if no modification)
+        git push origin $TARGET_BRANCH # push to remote branch
