@@ -12,7 +12,11 @@ jobs:
     steps:
     - name: Checkout code
       uses: actions/checkout@v2
-    
+    - name: Configure Bot
+      run: |
+        git config --global user.name "github-actions[bot]"
+        git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+        
     - name: Copy img/ to gh-pages
       env:
           SRC_FOLDER_PATH: 'img/'
