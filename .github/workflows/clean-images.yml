@@ -17,9 +17,20 @@ jobs:
       run: |
         # Navigate to the folder containing the pdfs
         cd src/
+        #converts all .pdf images into .png images:
+        for f in *.pdf; do
+            convert -density 300 "$f" -quality 90 "${f%.pdf}.png"
+        done
         # Find all pdf files in the folder and move them to a different folder
+        find . -name '*.png' -exec mv {} ../images/ \;
         find . -name '*.pdf' -exec mv {} ../images/ \;
-        find . -name '*.aux' -o -name '*.fls' -o -name '*.lof' -o -name '*.log' -o -name '*.out' -o -name '*.synctex.gz' -exec rm {} \;
+        # Remove all the auxillary files with extensions .aux, .fls, .lof, .log, .out, .synctex.gz:
+        find . -name '*.aux' -exec rm {} \;
+        find . -name '*.fls' -exec rm {} \;
+        find . -name '*.lof' -exec rm {} \;
+        find . -name '*.log' -exec rm {} \;
+        find . -name '*.out' -exec rm {} \;
+        find . -name '*.synctex.gz' -exec rm {} \;
     - name: Add changes
       run: |
         git config --global user.name "github-actions[bot]"
