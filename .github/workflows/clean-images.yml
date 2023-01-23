@@ -12,9 +12,14 @@ jobs:
     steps:
     - name: Checkout code
       uses: actions/checkout@v2
+      
+    - name: Fix ImageMagick Policy
+      run: |
+        sudo mv /etc/ImageMagick-6/policy.xml /etc/ImageMagick-6/policy.xmlout
 
     - name: Move PDF files
       run: |
+
         # Navigate to the folder containing the pdfs
         cd src/
         #converts all .pdf images into .png images:
