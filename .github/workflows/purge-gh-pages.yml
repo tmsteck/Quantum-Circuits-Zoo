@@ -19,14 +19,21 @@ jobs:
       env:
           TARGET_BRANCH: 'gh-pages'
           MAIN_BRANCH: 'main'
+          TEMP_BRANCH: 'temp_branch'
       run: |
         git fetch                         # fetch branches
         git branch –d $TARGET_BRANCH
         git push
-        git branch TARGET_BRANCH
-        git checkout $TARGET_BRANCH       # checkout to your branch
+        
+        git branch $TEMP_BRANCH
+        git checkout $TEMP_BRANCH
+        
         git checkout $MAIN_BRANCH -- deploy.sh
         git add -A
-        git diff-index --quiet HEAD ||  git commit -am "Reset Branch"  # commit to the repository (ignore if no modification)
-        git push origin $TARGET_BRANCH # push to remote branch
+        git diff-index --quiet HEAD ||  git commit -am "Initialize Branch"  # commit to the repository (ignore if no modification)
+        git push origin $TEMP_BRANCH # push to remote branch
+        
+        git branch -m $TARGET_BRANCH
+        git push
+        
 
