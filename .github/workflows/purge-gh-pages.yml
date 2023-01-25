@@ -26,6 +26,7 @@ jobs:
                 
         git branch $TARGET_BRANCH
         git checkout $TARGET_BRANCH
+        rm -r ./*
         
         git checkout $MAIN_BRANCH -- deploy.sh
         git add -A
