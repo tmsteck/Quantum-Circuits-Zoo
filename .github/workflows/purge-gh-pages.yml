@@ -22,7 +22,7 @@ jobs:
       run: |
         git fetch                         # fetch branches
         git branch –delete $TARGET_BRANCH
-        git branch $TARGET_BRANCH
+        git branch TARGET_BRANCH
         git checkout $TARGET_BRANCH       # checkout to your branch
         git checkout $MAIN_BRANCH -- deploy.sh
         git add -A
