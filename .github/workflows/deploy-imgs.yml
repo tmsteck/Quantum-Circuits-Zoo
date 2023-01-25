@@ -1,8 +1,9 @@
 name: Copy Images to Pages
 on:
-  push:
-    paths:
-      - 'src/*.pdf'
+  workflow_run:
+    workflows: ["Clean-Images"]
+    types:
+      - completed
   workflow_dispatch:
 
 jobs:
