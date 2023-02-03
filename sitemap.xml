@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://quantumcircuitszoo.org/</loc>
+  <lastmod>2023-01-25T23:24:49+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://quantumcircuitszoo.org/pauli-strings.html</loc>
+  <lastmod>2023-01-25T23:24:49+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://quantumcircuitszoo.org/pauli-gadget.html</loc>
+  <lastmod>2023-01-25T23:24:49+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://quantumcircuitszoo.org/pauli-basis-measurements.html</loc>
+  <lastmod>2023-01-25T23:24:49+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://quantumcircuitszoo.org/givens-rotations.html</loc>
+  <lastmod>2023-01-25T23:24:49+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://quantumcircuitszoo.org/su-2-n.html</loc>
+  <lastmod>2023-01-25T23:24:49+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://quantumcircuitszoo.org/hadamard-test.html</loc>
+  <lastmod>2023-01-25T23:24:49+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://quantumcircuitszoo.org/loschmidt-echo.html</loc>
+  <lastmod>2023-01-25T23:24:49+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://quantumcircuitszoo.org/quantum-teleportation.html</loc>
+  <lastmod>2023-01-25T23:24:49+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://quantumcircuitszoo.org/entangled-pure-states.html</loc>
+  <lastmod>2023-01-25T23:24:49+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://quantumcircuitszoo.org/controlled-rotations.html</loc>
+  <lastmod>2023-01-25T23:24:49+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://quantumcircuitszoo.org/trotter-product-formula.html</loc>
+  <lastmod>2023-01-25T23:24:49+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://quantumcircuitszoo.org/higher-order-trotter-suzuki-formulae.html</loc>
+  <lastmod>2023-01-25T23:24:49+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://quantumcircuitszoo.org/trotter-like-formulas.html</loc>
+  <lastmod>2023-01-25T23:24:49+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://quantumcircuitszoo.org/1cdd974cee8442ab8a42d8f4b2db81f9.html</loc>
+  <lastmod>2023-01-25T23:24:49+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://quantumcircuitszoo.org/shadow-tomography.html</loc>
+  <lastmod>2023-01-25T23:24:49+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://quantumcircuitszoo.org/learning-unknown-channels.html</loc>
+  <lastmod>2023-01-25T23:24:49+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://quantumcircuitszoo.org/block-encoding.html</loc>
+  <lastmod>2023-01-25T23:24:49+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://quantumcircuitszoo.org/quantum-signal-processing.html</loc>
+  <lastmod>2023-01-25T23:24:49+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://quantumcircuitszoo.org/quantum-random-walk.html</loc>
+  <lastmod>2023-01-25T23:24:49+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://quantumcircuitszoo.org/magic-states.html</loc>
+  <lastmod>2023-01-25T23:24:49+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://quantumcircuitszoo.org/arbitrary-superposition.html</loc>
+  <lastmod>2023-01-25T23:24:49+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://quantumcircuitszoo.org/cluster-state-measurement-entanglement.html</loc>
+  <lastmod>2023-01-25T23:24:49+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://quantumcircuitszoo.org/vqe-todo-as-part-of-the-qiskit-challenge-thing.html</loc>
+  <lastmod>2023-01-25T23:24:49+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://quantumcircuitszoo.org/clifford-group.html</loc>
+  <lastmod>2023-01-25T23:24:49+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://quantumcircuitszoo.org/quantum-singular-value-transform.html</loc>
+  <lastmod>2023-01-25T23:24:49+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://quantumcircuitszoo.org/index.html</loc>
+  <lastmod>2023-01-25T23:24:49+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://quantumcircuitszoo.org/b4b0bb8aab144212b35e47f6d86c552c.html</loc>
+  <lastmod>2023-01-25T23:24:49+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://quantumcircuitszoo.org/bbf1f4054f954174ab3e59e1c3904c9f.html</loc>
+  <lastmod>2023-01-25T23:24:49+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://quantumcircuitszoo.org/50348ae56ff74de5815176e14a45ca66.html</loc>
+  <lastmod>2023-01-25T23:24:49+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://quantumcircuitszoo.org/1e52b21cdc4b457fb3b29a637021506e.html</loc>
+  <lastmod>2023-01-25T23:24:49+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://quantumcircuitszoo.org/b6abb0c2404d41f9be452fbd425d481d.html</loc>
+  <lastmod>2023-01-25T23:24:49+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://quantumcircuitszoo.org/fecbc284ef5d483481ea66eb43bc558f.html</loc>
+  <lastmod>2023-01-25T23:24:49+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://quantumcircuitszoo.org/hubbard-j_1-j_2-heisenberg-2d.html</loc>
+  <lastmod>2023-01-25T23:24:49+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://quantumcircuitszoo.org/fault-tolerant-simulation-using-trotterization.html</loc>
+  <lastmod>2023-01-25T23:24:49+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://quantumcircuitszoo.org/d64143e7469b4325a1fd49299f0ca31e.html</loc>
+  <lastmod>2023-01-25T23:24:49+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://quantumcircuitszoo.org/7a10cae3ea454dc6ba812c689bfd1e05.html</loc>
+  <lastmod>2023-01-25T23:24:49+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://quantumcircuitszoo.org/d7e6faed88c0403cb8463362f31aa4d6.html</loc>
+  <lastmod>2023-01-25T23:24:49+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://quantumcircuitszoo.org/c09af05a04ce41adb28af31700bea64e.html</loc>
+  <lastmod>2023-01-25T23:24:49+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://quantumcircuitszoo.org/glossary.html</loc>
+  <lastmod>2023-01-25T23:24:49+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://quantumcircuitszoo.org/a5b991ecaccf49a0b22c148fa9478056.html</loc>
+  <lastmod>2023-01-25T23:24:49+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://quantumcircuitszoo.org/57ecc1c3ed784a3987583a931e67fee1.html</loc>
+  <lastmod>2023-01-25T23:24:49+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://quantumcircuitszoo.org/032a74370f6e4e9b85af874b92d2c078.html</loc>
+  <lastmod>2023-01-25T23:24:49+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://quantumcircuitszoo.org/3398986b725141969a3e79829db63eca.html</loc>
+  <lastmod>2023-01-25T23:24:49+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://quantumcircuitszoo.org/3cc432172e104c46b83944ffea0fc84e.html</loc>
+  <lastmod>2023-01-25T23:24:49+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://quantumcircuitszoo.org/a6a0c89327124c4db41487b7f7b97719.html</loc>
+  <lastmod>2023-01-25T23:24:49+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+
+
+</urlset>
